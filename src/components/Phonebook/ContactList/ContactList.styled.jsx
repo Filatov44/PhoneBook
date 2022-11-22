@@ -16,6 +16,7 @@ export const StyledContactItem = styled.li`
   border: 1px dashed blue;
   border-radius: 15px;
   margin-bottom: 5px;
+  min-width: 300px;
 `;
 
 export const StyledContactDel = styled.button`
@@ -23,7 +24,7 @@ export const StyledContactDel = styled.button`
   padding: 5px;
   border: none;
   color: red;
-  /* background-color: #ffffff; */
+  
   background-color: inherit;
   :focus {
     scale: 1.2;

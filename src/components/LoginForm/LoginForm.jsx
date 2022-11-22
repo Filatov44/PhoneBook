@@ -63,7 +63,6 @@ export default function LoginForm({ onSubmit }) {
           />
           <StyledButton type="submit"> Log In</StyledButton>
         </StyledForm>
-        {/* <p></p> */}
       </StyledFormContainer>
     );
 }
